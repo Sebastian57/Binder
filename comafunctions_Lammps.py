@@ -52,8 +52,8 @@ def preview_structure(file):
     pipeline_0.remove_from_scene()
 
 def animate(dump,thermo):
-    pipeline = import_file(f'/home/sebastian/LAMMPS/mylammps/bench/{dump}', multiple_frames=True)
-    data_in = np.loadtxt(f'/home/sebastian/LAMMPS/mylammps/bench/{thermo}')
+    pipeline = import_file(f'{dump}', multiple_frames=True)
+    data_in = np.loadtxt(f'{thermo}')
     timestep = data_in[:,0]
     temperature = data_in[:,1]
     
