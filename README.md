@@ -5,4 +5,4 @@
 The Lammps Structure File notebook can be used to write fcc and bcc structures for any element and lattice parameters. The files are then stored in the structures folder and are ready to be used in the LAMMPS notebook.
 
 #### Simulation
-The LAMMPS notebook features various Lammps input scripts (Al deformation, Al periodic bc, Al non-periodic bc, Ti phase transformation). So far only two potentials (one for Al and one for Ti) have been added. The output files, here dump and thermo_output are saved in the Output folder and are used in the python code (comafuntions_Lammps.py) for the visualisation with Ovito. At the bottom of the notebook the data is presented in plots and a simple (subject to change soon 26.04) calculation of the heat capacity is performed.  
+The LAMMPS notebook features various Lammps input scripts (Al deformation, Al periodic bc, Al non-periodic bc, Ti phase transformation). So far only two potentials (one for Al and one for Ti) have been added. The output files, here dump and thermo_output are saved in the Output folder and are used in the python code (comafuntions_Lammps.py) for the visualisation with Ovito. 
