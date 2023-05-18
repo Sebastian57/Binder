@@ -1,4 +1,4 @@
-FROM sebastian57/binder_ovito_lammps:1.0
+FROM sebastian57/lammps_binder:1.0 #binder_ovito_lammps:1.0
 
 WORKDIR /
 USER root
